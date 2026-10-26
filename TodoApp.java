@@ -11,5 +11,6 @@ public class TodoApp {
         for (String task : tasks) {
             System.out.println("- " + task);
         }
+        System.out.println("Total tasks: " + tasks.size());
     }
 }
